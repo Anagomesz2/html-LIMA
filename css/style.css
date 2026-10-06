@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(235, 240, 246);
+    color: pink;
+}
+
+#cabecalho-principal {
+    color: rgb(255, 151, 169);
+    background-color: rgb(255, 200, 209);
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    font-size: 30px;
+}
+
+.menu-links {
+    font-size: 20px;
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(248, 245, 245);
+}
+
+#cabecalho-principal a.active {
+    text-decoration: none;
+    color: rgb(255, 120, 142);
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(255, 200, 209);
+    border-radius: 5px;
+}
+
+#quem-sou-eu {
+    color:rgb(58, 58, 58);
+    background-color: rgb(250, 221, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+}
+
+#quem-sou-eu p {
+    color: rgb(255, 120, 142);
+    font-size: 25px;
+}
+
+#objetivo-do-site h2{
+    color: rgb(255, 120, 142);
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+#objetivo-do-site {
+    color:rgb(97, 92, 92);
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#semantica {
+    color: rgb(255, 120, 142);
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.semantica-artigo h3 {
+    color: rgb(254, 154, 171);
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.semantica-artigo p {
+    color: rgb(97, 92, 92);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#css h3{
+    color: rgb(255, 120, 142);
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+#css p{
+    color: rgb(97, 92, 92);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#obs h3{
+    color: rgb(255, 120, 142);
+    font-size: 30px;
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+}
+
+#obs p{
+    color: rgb(97, 92, 92);
+    display: flex;
+    flex-direction: column;
+}
+
+#botao-footer a{
+    color: rgb(255, 120, 142);
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(255, 200, 209);
+    border-radius: 5px;
+    align-items: left;
+    space-between: 10px;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+footer{
+    font-size: 30px;
+    color: rgb(58, 58, 58);
+    margin-top: 40px;
+    background-color: rgb(248, 245, 245);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}

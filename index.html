@@ -1,34 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <header>
-        <meta charset="UTF-8"
+    <head>
+        <meta charset="UTF-8">  
         <title>Linguagem de Marcação</title>
-    </header>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
     <body>
-      <h1>Meu curso de HTML</h1>  
-      <p>Meu nome é Ana Clara Gomes</p>
-      <p>Eu sou estudante de DS no Senai</p>
+        <header id = "cabecalho-principal">
+            <article class="menu-links">
+                <a href = "index.html" class="active">Início</a>
+                <a href = "pages/sobre.html">Sobre</a>
+            </article>
     </body>
 
     <main>
-        <section>
+        <section id = "quem-sou-eu">
+            <h1>Meu curso de HTML</h1>
+            <p>Meu nome é Ana Clara Gomes</p>
+            <p>Eu sou estudante de DS no Senai</p>
+        </section>
+
+        <section id = "objetivo-do-site">
+            <h2>Objetivo do site</h2>
+            <p>O objetivo do site é colocar em prática o que aprendi com o Thiago e o Marcelo</p>
+        </section>
+
+        <section id = "semantica">
             <h2>Semântica</h2>
-            <article>
+            <article class="semantica-artigo">
                 <h3>Textos e Semântica</h3>
                 <p>Hoje revisei estrutura, significado e hierarquia no HTML</p>
             </article>
-            <article>
+        </section>
+
+        <section id = "css">
+            <article class="css-artigo">
                 <h3>CSS- Estilização de páginas</h3>
                 <p>Sábado eu irei revisar CSS, vou fazer a estilização dessa página</p>
             </article>
         </section>
-            <aside>
+
+        <section id = "obs">
+            <article class="obs-artigo">
                 <h2>Observação</h2>
                 <p>O CSS tem o propósito de estilizar a página e o HTML para colocar o conteúdo</p>
-            </aside>
+            </article>
+        </section>
     <main>
 
     <footer>
         <p>Propósito do site: aplicar na prática tudo que aprendi com o Thiago e o Marcelo</p>
+
+        <section id = "botao-footer">
+            <a href = "assets/arquivo/Textos e semântica no HTML.pdf" target="_blank">Download do PDF</a>
+        </section>
     </footer>
 </html>
